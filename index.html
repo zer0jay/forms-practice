@@ -8,26 +8,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Practicing Forms!</h1>
-
-    <form
-      action="https://formspree.io/f/mjvddvaq"
-      target="_blank"
-      method="POST"
-    >
-      <p>
-        <label for="firstName">First name:</label>
-        <input type="text" name="firstName" id="firstName" placeholder="Foo" />
-      </p>
-      <p>
-        <label for="lastName">Last name:</label>
-        <input type="text" name="lastName" id="lastName" placeholder="Bar" />
-      </p>
-      <p>
-        <input type="submit" value="Submit" />
-      </p>
-
-      <div class="haha">It's ugly on purpose!</div>
-    </form>
+    <h1 class="header">Practicing Forms!</h1>
+    <div class="form">
+      <form
+        action="https://formspree.io/f/mjvddvaq"
+        target="_blank"
+        method="POST"
+      >
+        <p>
+          <label for="firstName">First name:</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Foo"
+          />
+        </p>
+        <p>
+          <label for="lastName">Last name:</label>
+          <input type="text" name="lastName" id="lastName" placeholder="Bar" />
+        </p>
+        <p>
+          <input type="submit" value="Submit" />
+        </p>
+      </form>
+    </div>
+    <div class="haha">It's ugly on purpose!</div>
   </body>
 </html>

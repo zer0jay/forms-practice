@@ -3,13 +3,26 @@ body {
 }
 
 input {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 .haha {
-    display: flex;
-    justify-content: center;
-    color: pink;
-    margin-top: 300px;
-    font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  color: pink;
+  margin-top: 200px;
+  font-size: 5rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  border: 3px solid red;
+  padding-top: 200px;
+}
+
+.header {
+  position: absolute;
+  border: 3px solid red;
+  left: 550px;
 }
