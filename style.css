@@ -1,0 +1,15 @@
+body {
+  background-color: teal;
+}
+
+input {
+    background-color: yellow;
+}
+
+.haha {
+    display: flex;
+    justify-content: center;
+    color: pink;
+    margin-top: 300px;
+    font-size: 5rem;
+}
